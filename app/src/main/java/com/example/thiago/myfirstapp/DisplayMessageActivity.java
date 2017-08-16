@@ -15,6 +15,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+//        String message = "Essa mensagem aparece na tela";
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
